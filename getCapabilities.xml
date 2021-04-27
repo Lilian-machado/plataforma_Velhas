@@ -217,7 +217,7 @@
 				<Title>cam_riodasvelhas_bacia</Title>
 				<Abstract>GH:cam_riodasvelhas_bacia ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Lilian-machado/plataforma_Velhas/releases/download/Map_Download/cam_riodasvelhas_bacia.zip˸notListing˸˸maxZoom˸5</Keyword>
+					<Keyword>group˸shp˸˸˸//github.com/Lilian-machado/plataforma_Velhas/releases/download/Map_Download/cam_riodasvelhas_bacia.zip˸notListing˸˸maxZoom˸13</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-44.88618604118775" miny="-20.450194874274125" maxx="-43.460856657201035" maxy="-17.178123328382082"></LatLonBoundingBox>
