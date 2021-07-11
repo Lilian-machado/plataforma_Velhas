@@ -256,7 +256,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:municipios</Layers>
+				<Layers>GH:altitude__m_</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -266,7 +266,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:municipios</Layers>
+				<Layers>GH:altitude__m_</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -276,7 +276,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:altitude__m_</Layers>
+				<Layers>GH:municipios</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -286,7 +286,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:altitude__m_</Layers>
+				<Layers>GH:municipios</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -438,26 +438,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:municipios</Name>
-				<Title>municipios</Title>
-				<Abstract>GH:municipios ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/Lilian-machado/plataforma_Velhas/releases/download/Map_Download/municipios.zip˸notListing˸˸maxZoom˸13</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-45.1286810053744" miny="-20.639618960851248" maxx="-43.08256670099482" maxy="-17.043186644569246"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="486594.48602843314" miny="7717735.37430549" maxx="699793.0825317984" maxy="8114707.9408704825"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=municipios"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:altitude__m_</Name>
 				<Title>altitude__m_</Title>
 				<Abstract>GH:altitude__m_ ABSTRACT</Abstract>
@@ -474,6 +454,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=altitude__m_"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:municipios</Name>
+				<Title>municipios</Title>
+				<Abstract>GH:municipios ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸//github.com/Lilian-machado/plataforma_Velhas/releases/download/Map_Download/municipios.zip˸notListing˸˸maxZoom˸13</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-45.1286810053744" miny="-20.639618960851248" maxx="-43.08256670099482" maxy="-17.043186644569246"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="486594.48602843314" miny="7717735.37430549" maxx="699793.0825317984" maxy="8114707.9408704825"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=municipios"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
